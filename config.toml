@@ -9,7 +9,7 @@ theme = "infinity-hugo"
     [params.navigation]
         logo = "images/logo.png"
         home = "Home"
-        about = "Servicess"
+        about = "Services"
         service = "Services"
         contact = "Contact"
 
