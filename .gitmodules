@@ -1,0 +1,3 @@
+[submodule "themes/infinity-hugo-theme"]
+	path = themes/infinity-hugo-theme
+	url = https://github.com/themefisher/infinity-hugo.git
