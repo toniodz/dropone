@@ -1,0 +1,124 @@
+baseURL = "https://www.example.com"
+languageCode = "en-us"
+title = "Drop One Services"
+theme = "infinity-hugo"
+
+[params]
+
+    # Navigation
+    [params.navigation]
+        logo = "images/logo.png"
+        home = "Home"
+        about = "Services"
+        service = "Services"
+        contact = "Contact"
+
+    # Hero Area
+    [params.hero]
+        enable      = true
+        bg          = "images/header-bg.jpg"
+        title       = "DROP ONE SERVICES LTD"
+        subtitle    = "is a rope access contractor who provides services to the construction and property management industry, specializing in material testing, including cavity and cladding panel system inspections."
+        btnText     = "Get Started"
+
+    # About Section
+    [params.about]
+        enable      = true
+        heading     = "Window Cleaning"
+        description = "Abseiling through drop rope access gives us the advantage of effective window cleaning at height with minimal disturbance or inconvenience to your company, keeping costs down in those hard to reach places. We are able to offer a complete cleaning service for high rise developments and commercial buildings across London and the South East."
+
+        [[params.about.sliderItem]]
+            image   = "images/window-cleaning.JPG"
+
+    # service1 Section
+    [params.service1]
+        enable      = true
+        heading     = "Avian Pest Control"
+        description = "This part of the world is well known for its stunning architecture new and old, but with the wonderful buildings comes the perfect roosting ground for pigeons, gulls and other birds. Bird droppings (guano) are not just unsightly they add to the company cleaning costs of buildings and can carry disease carrying mites, posing a health risk to the public. We are able to offer a variety of services for bird control including altogether bird proofing and deterrents all of which we guarantee to be humane as well as effective"
+
+        [[params.about.sliderItem]]
+            image   = "images/avian_pest_control.JPG"
+
+    # concrete-testing Section
+    [params.concretetesting]
+        enable      = true
+        heading     = "Concrete Testing"
+        description = "Once a concrete issue or damage is identified it is important to establish the cause of the problem before repair work is specified and carried out. Our high level rope access team can carry out concrete testing at height whilst causing minimal disruption to your building users and the ground space below."
+
+        [[params.about.sliderItem]]
+            image   = "images/concrete-testing.JPG"
+
+    # eyebolt Section
+    [params.eyebolt]
+        enable      = true
+        heading     = "Eyebolt Testing & Installation"
+        description = "Eyebolts can be installed directly into most material, including steelwork, concrete and masonry the eyebolt system used in each structure will vary according to the material in place. Eyebolts along with the anchor will be made from either galvanized steel, powder coated or stainless steel. Periodic testing is required by legislation covered by LOLER. On completion of installation & testing you will be provided with a certificate of examination. After testing we will provide a report detailing if eyebolts are safe to remain in use or if any remedial or altogether removal action is needed."
+
+        [[params.about.sliderItem]]
+            image   = "images/eyebolts.JPG"
+
+    # fabric_inspection Section
+    [params.fabricinspection]
+        enable      = true
+        heading     = "Fabric Inspection"
+        description = "Due to recent events, we have been involved in carrying out high-level inspections to cladding systems on residential blocks to establish construction detailing and materials testing via UCAS accredited laboratories."
+
+        [[params.about.sliderItem]]
+            image   = "images/fabric-inspection.JPG"
+
+    # maintenance Section
+    [params.maintenance]
+        enable      = true
+        heading     = "Maintenance"
+        description = "We have extensive experience of working for property management agencies in the City of London, carrying out all aspects of high-level external maintenance works."
+
+        [[params.about.sliderItem]]
+            image   = "images/maintenance.JPG"
+
+    
+    # Service Section
+    [params.service]
+        enable      = true
+        title       = "We offer a full range of Abseiling services"
+        subtitle    = "..."
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-ion-compass"
+            title   = "FULLY INSURED"
+            description = ""
+            delay   = "0.0s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-ion-compass"
+            title   = "FREE SITE SURVEY"
+            description = ""
+            delay   = "0.2s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            icon    = "tf-ion-compass"
+            title   = "IRATA TRAINED"
+            description = ""
+            delay   = "0.4s"
+
+    
+    
+    # Call to Action Section
+    [params.cta]
+        enable      = false
+        bg          = "images/call-to-action.jpg"
+        title       = "Subscribe to our mailing list"
+        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+
+    [params.contact]
+        enable      = true
+        title       = "Contact us today for a FREE QUOTE"
+        subtitle    = "07957 140739 / steve@droponeservices.co.uk"

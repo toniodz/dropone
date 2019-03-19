@@ -1,0 +1,26 @@
+{{ if .Site.Params.eyebolt.enable }}
+    {{"<!-- About Section -->" | safeHTML}}
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12 wow fadeInLeft">
+                    <div class="content">
+                        <div class="sub-heading">
+                        {{ with .Site.Params.eyebolt.heading }}
+                            <h3>{{ . }}</h3>
+                        {{ end }}
+                        </div>
+                        {{ with .Site.Params.eyebolt.description }}
+                            <p>{{ . | markdownify }}</p>
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12 wow fadeInLeft" data-wow-delay="0.3s">
+                    <div class="about-slider">
+                        <img class="img-fluid" src="images/eyebolts.JPG"  />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{{ end }}
